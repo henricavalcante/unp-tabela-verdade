@@ -2,11 +2,38 @@
 <html>
 <head>
 	<title>Tabela Verdade</title>
+	<style type="text/css">
+	table, input {
+		width: 100%;
+	}
+	table, td {
+		border: 1px solid #ccc;
+	}
+	td, input {
+		height: 30px;
+	}
+	pre {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		color: #ccc;
+	}
+	</style>
 </head>
 <body>
-<input type="text" placeholder="Insira aqui a proposição ex: p^q" id="expressao" style="width:100%"/>
+<input type="text" placeholder="Insira aqui a proposição ex: p^q" id="expressao"/>
 <table id="verdade">
 </table>
+<pre>
+	'Conjunção' ['˄']
+	'Disjunção Inclusiva' ['˅']
+	'Negação' ['~']
+	'Implicação' ['→']
+	'Equivalência' ['↔']
+	'Nor' ['↓']
+	'Nand' ['↑']
+	'Disjunção Exclusiva' ['⊻']
+</pre>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
 <script type="text/javascript" src="verdade.js"></script>
 </body>

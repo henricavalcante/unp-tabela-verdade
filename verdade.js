@@ -3,16 +3,16 @@
 var OPERADORES = [
 	{
 		op: '&&', // operador E
-		eq: ['ˆ','^','˄']
+		eq: ['ˆ','^','˄', '&']
 	},{
 		op: '||', // Operador Ou
-		eq: ['˅','v']
+		eq: ['˅', '|']
 	},{
 		op: '!', // Negação
-		eq: ['~', '˜', '¬', '∼', '¬']
+		eq: ['~', '˜', '¬', '∼']
 	},{
 		op: '===false||', // Implicação
-		eq: ['→']
+		eq: ['→', '→', '>']
 	},{
 		op: '===', // Equivalência
 		eq: ['↔']
