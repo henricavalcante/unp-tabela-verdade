@@ -6,7 +6,7 @@ var OPERADORES = [
 		eq: ['ˆ','^','˄']
 	},{
 		op: '||', // Operador Ou
-		eq: ['˅']
+		eq: ['˅','v']
 	},{
 		op: '!', // Negação
 		eq: ['~', '˜', '¬', '∼', '¬']
